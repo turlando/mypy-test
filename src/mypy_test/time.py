@@ -1,5 +1,4 @@
 from datetime import datetime
 
-# should not type check
-def now() -> str:
+def now() -> datetime:
     return datetime.now()
